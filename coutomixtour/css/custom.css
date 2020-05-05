@@ -1,0 +1,95 @@
+.text-light {
+  color: white;
+}
+
+.escudo {
+  margin-top: 80px;
+}
+
+.textoJustificado {
+  text-align: justify;
+}
+.alinearArriba{
+  padding-top: 30px;
+}
+
+/* Quitamos padding de la cabeza del elemento */
+.non-padding-top {
+    padding-top: 0px !important;
+}
+
+/* Quitamos padding del pie del elemento */
+.non-padding-bottom {
+    padding-bottom: 0px !important;
+}
+
+/* Quitamos margin de la cabeza del elemento */
+.non-margin-top {
+    margin-top: 0px !important;
+}
+
+/* Quitamos margin del pie del elemento */
+.non-margin-bottom {
+    margin-bottom: 0px !important;
+}
+
+/* Fijamos un margen de pie */
+.mb-10{
+  margin-bottom: 10px !important;
+}
+
+.mb-20{
+  margin-bottom: 20px !important;
+}
+
+.mb-40{
+  margin-bottom: 40px !important;
+}
+/* Fijamos un margen de cabecera */
+
+.mt-20{
+  margin-top: 20px !important;
+}
+
+.btnFont {
+  font-family: 'Source Sans Pro';
+}
+
+/* Alinear un formulario en el centro de pantalla */
+.abs-center {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.form {
+    display: inline-block;
+    text-align: center;
+    width: 800px;
+}
+
+.textarea {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 15px;
+}
+
+.logoSponsor {
+  max-width: 200px;
+  display: block;
+  vertical-align: middle;
+}
+
+/* Estilo del botón para adjuntar ficheros */
+.subir{
+    padding: 5px 10px;
+    background-color: transparent;
+    color:#fff;
+    border:1px solid #ffffff;
+}
+
+.subir:hover{
+    color: black;
+    background: #ffffff;
+}
